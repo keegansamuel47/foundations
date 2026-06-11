@@ -1,23 +1,24 @@
-from operator import truediv
 
-name = " keegan"
+
+name = "keegan"
 age = 26
 height_in_meters = 1.83
-whether_i_am_enjoying_this = True
+is_enjoying_this = True
 print(name)
 print(age)
 print(height_in_meters)
-print(whether_i_am_enjoying_this)
+print(is_enjoying_this)
 print(type(name))
 print(type(age))
 print(type(height_in_meters))
 print(type(whether_i_am_enjoying_this))
 
-a = 10
-b =99
-a ,b = b ,a
-print(a)
-print(b)
+x = 1
+y = 2
+#undertanding that pythons read from the left side therby rearranging the values according to the placement before reading the right side
+x,y  = y,x
+print(x)
+print(y)
 
 
 money = 50
@@ -27,3 +28,4 @@ money = money + 25
 money = money - 10
 #then minus 10 from it
 print(money)
+#the outcome is 65
