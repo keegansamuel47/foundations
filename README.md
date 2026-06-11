@@ -1,0 +1,1 @@
+today is june 11 and i learnt new lines of codes about variables and types 
