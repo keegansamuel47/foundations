@@ -1,1 +1,3 @@
-today is june 11 and i learnt new lines of codes about variables and types 
+today is june 12
+learnt  about variables and types 
+fix exercise on variable swap

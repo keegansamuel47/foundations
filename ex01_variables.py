@@ -13,14 +13,16 @@ print(type(age))
 print(type(height_in_meters))
 print(type(is_enjoying_this))
 
+
 x = 1
 y = 2
-#undertanding that pythons read from the left side therby rearranging the values according to the placement before reading the right side
-a = x
-b = y
-print(a)
-print(b)
 
+b = x
+#introduce a third variable to hold the value of x temporarily before the swap
+x = y
+y = b
+print(x)
+print(y)
 
 money = 50
 #i understand python execute code line by line , first of all check the value for the variable money , which is 50
