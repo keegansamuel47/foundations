@@ -1,3 +1,2 @@
-today is june 12
-learnt  about variables and types 
-fix exercise on variable swap
+my python journey 
+exercise on variables and types
