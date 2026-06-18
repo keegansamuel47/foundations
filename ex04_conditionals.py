@@ -22,7 +22,6 @@ elif score >= 70:
 else:
     print("F")
 
-#print big , don't exactly know why but  think if x is greater than 3 the elif condition needs to differ
 x = 5
 if x > 3:
     print("big")
