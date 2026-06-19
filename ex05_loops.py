@@ -9,9 +9,14 @@ for i in range(5):
     print(i)
 
 number = float(input("Choose a number: "))
-total = 1
-while  total <= number:
-    print(total)
-    total += 1
+i = 1
+while i <= number:
+    print(i)
+    i += 1
 
 #it will print backward from 5 down to 1
+#it stopped because  x is no longer greater than 0 hence the loops ends.
+x = 5
+while x > 0:
+    print(x)
+    x -= 1
